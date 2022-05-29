@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/Filter-app/static/css/main.e6c13ad2.css",
+    "main.js": "/Filter-app/static/js/main.b3078fb5.js",
+    "static/js/787.fd238550.chunk.js": "/Filter-app/static/js/787.fd238550.chunk.js",
+    "static/media/office1.jpg": "/Filter-app/static/media/office1.9e6bdc625bcfd0f13211.jpg",
+    "static/media/office3.jpg": "/Filter-app/static/media/office3.63f3dda3eab35f8fcd02.jpg",
+    "static/media/React2.jpg": "/Filter-app/static/media/React2.bba743acde8f2a76a001.jpg",
+    "static/media/Python1.jpg": "/Filter-app/static/media/Python1.b01fe58a627e40c3b75b.jpg",
+    "static/media/office2.jpg": "/Filter-app/static/media/office2.b29497c2faca87a471e9.jpg",
+    "static/media/React4.jpg": "/Filter-app/static/media/React4.91d161891be262da00c2.jpg",
+    "static/media/React3.jpg": "/Filter-app/static/media/React3.f3839318175fa4dcaab3.jpg",
+    "static/media/React1.jpg": "/Filter-app/static/media/React1.cf7b6bd11cab94294c3e.jpg",
+    "static/media/Python2.jpg": "/Filter-app/static/media/Python2.84a4512c7fa78087745c.jpg",
+    "static/media/Python3.jpg": "/Filter-app/static/media/Python3.64df6f405733aee1fe05.jpg",
+    "index.html": "/Filter-app/index.html",
+    "main.e6c13ad2.css.map": "/Filter-app/static/css/main.e6c13ad2.css.map",
+    "main.b3078fb5.js.map": "/Filter-app/static/js/main.b3078fb5.js.map",
+    "787.fd238550.chunk.js.map": "/Filter-app/static/js/787.fd238550.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e6c13ad2.css",
+    "static/js/main.b3078fb5.js"
+  ]
+}
