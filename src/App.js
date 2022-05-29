@@ -1,24 +1,74 @@
-import logo from './logo.svg';
-import './App.css';
-
+import React ,{useState} from 'react';
+import AllData from './AllData'
 function App() {
+
+  const [images,setImage]  = useState(AllData)
+
+  const allItem =()=>{
+    const finalData = AllData.filter((value)=>{
+      return value;
+    })
+    setImage(finalData)
+  }
+
+  const onlyPython =(categoryItem)=>{
+    const finalData = AllData.filter((value)=>{
+      return value.category == categoryItem
+    })
+
+    setImage(finalData)
+  }
+  const onlyOffice =(categoryItem)=>{
+    const finalData = AllData.filter((value)=>{
+      return value.category == categoryItem
+    })
+
+    setImage(finalData)
+  }
+  const onlyReact =(categoryItem)=>{
+    const finalData = AllData.filter((value)=>{
+      return value.category == categoryItem
+    })
+    setImage(finalData)
+  }
+  
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <>
+    <div className="container my-3" >
+      <div className="row">
+        <div className="col-3">
+        <button className='btn btn-primary' onClick={allItem}>All</button>
+        </div>
+        <div className="col-3">
+        <button className='btn btn-primary' onClick={()=>onlyPython('Python')}>Python</button>
+        </div>
+        <div className="col-3">
+        <button className='btn btn-primary' onClick={()=>onlyOffice('Office')}>Office</button>
+        </div>
+        <div className="col-3">
+        <button className='btn btn-primary' onClick={()=>onlyReact('React')}>React</button>
+        </div>
+      </div>
     </div>
+
+
+
+    <div className="container">
+      <div className="row row-cols-1 row-cols-sm-2 row-cols-md-3">
+        {
+          images.map((value)=>{
+            return (
+             <div className="col mt-3">
+                <img src={value.image} className='img-fluid' alt="image" />
+             </div>
+            );
+          })
+        }
+      </div>
+    </div>
+    </>
+
+
   );
 }
 
